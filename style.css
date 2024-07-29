@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky; /*makes it stick to it's position, not moke on scrolling*/
+    top: 0;
+    cursor: pointer; /*cursor becomes a pointer here*/
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo img{
+    width: 25%;
+    border: 7px gold;
+    border-radius: 50px;
+}
+
+.nav-list{
+    width: 80%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 3%;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(79, 77, 77);
+}
+
+.srchbr{
+    width: 30%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+#search{
+    padding: 8px 10px; /*lhs for vertical padding & rhs for horizontal padding*/
+    font-size: 17px;
+    border: 3px salmon;
+    border-radius: 20px;
+}
+
+.smlbtn{
+    padding: 6px 7px;
+    vertical-align:middle;
+    border: 6px rgb(6, 6, 6);
+    border-radius: 8px;
+}
+
+.background{
+    background: rgba(226, 153, 116, 0.997);
+}
+
+.firstsection{
+    height: 80vh;
+}
+
+.firstpart{
+    padding: 180px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 96%;
+    height: 33%;
+}
+
+.doosrapart{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.pehlapart{
+    width: 80%;
+}
+
+.pehlapart img{
+    width: 84%;
+    padding: 15px 40px;
+    border: 3px solid white;
+    display: inline;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 48px;
+    text-align: center;
+    margin: 4%;
+}
+
+.text-small{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.contri{
+    padding: 0px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    height: 90px;
+}
+
+.contritext{
+    font-size: 44px;
+    text-align: center;
+    margin: auto;
+}
+
+.hitman{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.rohit{
+    width: 50%;
+}
+
+.rohit img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.sharma{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-ro{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.king{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.virat{
+    width: 50%;
+}
+
+.virat img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.kohli{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-vk{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.boomboom{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.jasprit{
+    width: 50%;
+}
+
+.jasprit img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.bumrah{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-js{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.gaadi{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.rishabh{
+    width: 50%;
+}
+
+.rishabh img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.pant{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-rp{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.sky{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.surya{
+    width: 50%;
+}
+
+.surya img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.suryakumar{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-sky{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.rlj{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.shivam{
+    width: 50%;
+}
+
+.shivam img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.dube{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-sd{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.bapu{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.axar{
+    width: 50%;
+}
+
+.axar img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.patel{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-ap{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.pandu{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.hardik{
+    width: 50%;
+}
+
+.hardik img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.pandya{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-hp{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.jaddu{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.ravindra{
+    width: 50%;
+}
+
+.ravindra img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.jadeja{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-rj{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.raosahab{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.kuldeep{
+    width: 50%;
+}
+
+.kuldeep img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.yadav{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-ky{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.lassi{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.arshdeep{
+    width: 50%;
+}
+
+.arshdeep img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.singh{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-as{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.miyan{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.mohammed{
+    width: 50%;
+}
+
+.mohammed img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.siraj{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-ms{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.wall{
+    padding: 40px 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    height: 25%;
+}
+
+.rahul{
+    width: 50%;
+}
+
+.rahul img{
+    width: 54%;
+    padding: 10px 10px;
+    border: 2px solid white;
+    display: inline;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+
+.dravid{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-rd{
+    font-size: 20px;
+    text-align: center;
+    margin: 4%;
+}
+
+.contact{
+    background-color: turquoise;
+    height: 42vh;
+}
+
+.newsletter{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 7px;
+}
+
+.form{
+    max-width: 300px;
+    margin: auto;
+}
+
+.form-input{
+    width: 95%;
+    padding: 7px;
+    border: 3px solid grey;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    top: 57px;
+    right: 1%;
+    display: none;
+}
+
+.line{
+    width: 36px;
+    background-color: rgb(49, 45, 45);
+    height: 4px;
+    margin: 4px 3px;
+}
